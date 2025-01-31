@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             when {
                 resultado < 18.5 -> {
                     salud = "Bajo peso"
-                    color = R.color.colorGreen
+                    color = R.color.colorRed
                 }
                 resultado >= 18.5 && resultado <= 24.9 -> {
                     salud = "Saludable"
